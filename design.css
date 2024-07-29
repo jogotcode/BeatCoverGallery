@@ -1,0 +1,44 @@
+#Gallery_contaner{
+  background-color: #B4B4B8;
+  max-height:1000px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  overflow: scroll;
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.album-gallery{
+  background-color: rgb(106, 0, 255);
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+  
+  
+}
+.album-title{
+ color: aliceblue;
+ font-size: 20px;
+ float: left;
+}
+.BeatCovers{
+  max-height: 200px;
+  max-width: 200px;
+
+}
+
+
+.cover-row{
+  border: 2px solid black;
+}
