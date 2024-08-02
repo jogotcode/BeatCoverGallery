@@ -7,12 +7,30 @@ body{
 }
 .page-content{
   margin:0 auto;
-  max-width: 500px;
-  height: 500px;
+  max-width: 1000px;
+  height: 100vh;
   background-color: #40534C;
+  text-align: center;
   
 }
 
 header{
   background-color: #D6BD98;
+  height: 50px;
+  padding-top: 13px;
+  display: flex;
+  flex-direction: row;
+  
+}
+#HeadImg{
+  width: 100%;
+  height: 400px;
+  object-fit:cover;
+}
+
+li{
+ display: inline;
+ margin: 0 auto;
+ display: flex;
+ padding-right: 150px ;
 }
